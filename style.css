@@ -1,0 +1,204 @@
+body {
+    height: 2000px;
+    margin: 0;
+    padding: 0;
+}
+
+.clear {
+    width: 100%;
+    padding: 1.9rem 0;
+}
+
+.clear-1 {
+    background-color: #ffc107;
+}
+
+.clear-2 {
+    background-color: #ffffff;
+}
+
+/* Navbar */
+nav {
+    border-bottom: 1px solid black;
+    font-size: 5rem;
+}
+
+.brand {
+    font-size: 1.8rem;
+}
+
+/* Home */
+.home {
+    margin: 10rem auto 5rem;
+}
+
+.images-home {
+    border: 2.5rem solid #3a0ca3;
+}
+
+/* About Us */
+.container-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    padding: 9rem 0;
+}
+
+.about-us {
+    background-color: #ffc107;
+}
+
+.images-about, .p-about {
+    margin: 2rem;
+}
+
+.images-about {
+    width: 30%;
+}
+
+.p-about {
+    text-align: justify;
+    width: 50%;
+    font-size: 1.3rem;
+}
+
+.title {
+    padding: 15px 0;
+    color: white;
+    font-size: 1.5rem;
+    background-color: #3a0ca3;
+    width: 100%;
+}
+
+.carousel-control-prev-icon {
+    color: black;
+}
+
+.container-lg .d-flex {
+    width: 95%;
+    margin: 3rem auto 0;
+}
+
+/* Product */
+.row-list-product {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.button-card {
+    width: 90%;
+    margin: 1rem auto;
+}
+
+.card {
+    width: 15rem;
+}
+
+
+/* Comment */
+.comment-user {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap: 50px;
+}
+
+figure {
+    background-color: #ffc107;
+    padding: 12px;
+    gap: 5;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    width: 30%;
+}
+
+.accordion {
+    margin: 2rem 0;
+}
+
+.love {
+    color: red;
+    font-size: 1rem;
+}
+
+/* Footer */
+footer {
+    padding: 1.5rem 0;
+}
+
+@media (max-width: 576px) { 
+    
+    /* Home */
+    .home {
+        display: none;
+    }
+
+    .images-home {
+        border: .5rem solid #3a0ca3;
+        border-radius: 12px;
+    }
+
+    /* About Us */
+    .container-about {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        padding: 7rem 0 0;
+    }
+
+    .about-us {
+        background-color: #ffc107;
+    }
+
+    .images-about, .p-about {
+        margin: 2rem;
+    }
+
+    .images-about {
+        width: 50%;
+    }
+
+    .p-about {
+        text-align: justify;
+        width: 85%;
+        font-size: 1.3rem;
+    } 
+
+    /* Product */
+    .row-list-product {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 25px;
+        padding: 0 .3rem;
+    }
+
+    .card {
+        width: 11rem;
+    }
+
+    /* Comment */
+    .comment-user {
+        width: 100%;
+        overflow-x: scroll;
+        display: inline;
+        flex-wrap: nowrap;
+        gap: 50px;
+    }
+
+    figure {
+        background-color: #ffc107;
+        padding: 12px;
+        gap: 0;
+        border-top-left-radius: 12px;
+        border-bottom-right-radius: 12px;
+        width: 100%;
+    }
+
+    /* Footer */
+    .s-1, .s-3 {
+        display: none;
+    }
+
+}
